@@ -3,16 +3,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <title>My First Web page!</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+
     <header id="header">
-        
-        <ul>
-            <h1>My Website</h1>
+        <h1>My Website</h1>
+        <ul id="inline">
+            
             <li>
                 <a href="https://www.Youtube.com" target="_blank">Youtube</a>
             </li>
@@ -22,17 +23,18 @@
             <li>
                 <a href="Index.html">Home</a>
                 </li>
-            <li id="right">
-            <a href="Login.html">Login</a>
-            </li>
-
+            
+            
         </ul>
+        <a id="right" href="Login.html">Login</a>
     </header>
 
 
     <div>
-       
-        </section>
+       <section>
+           <h3 id="uppercase">Login</h3>
+       </section>
+        
         
         <section>
             <form>
@@ -43,9 +45,9 @@
                 <input type="password" id="password" name="password" />
 
                 
-                <input type="submit" value="Login" />
+                <input id="Login-button" type="submit" value="Login" />
 
-                <input type="reset" value="Clear" />
+                <input id="Clear-button" type="reset" value="Clear" />
             </form>
         </section>
     </div>

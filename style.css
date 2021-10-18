@@ -18,3 +18,53 @@ html{
     margin-right: auto;
     font-family: sans-serif;
 }
+footer{
+    text-align: center;
+
+}
+#inline{
+    display: inline;
+}
+aside{
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    background-color: hotpink;
+}
+article{
+    width: 30%;
+    text-align: center;
+    background-color: tan;
+    display: inline-block;
+    vertical-align: top;
+    border-width: 2px;
+    border-style: solid;
+}
+#uppercase{
+    text-transform: uppercase;
+}
+form{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 20px;
+    background-color: red;
+    height: 100px;
+    text-align: center;
+    border-radius: 5%;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+#Login-button{
+background-color: blue;
+color: green;
+border: none;
+padding: 10px 20px;
+}
+#Clear-button{
+background-color: seagreen;
+}
+#Clear-button:hover{
+    background-color: purple;
+}

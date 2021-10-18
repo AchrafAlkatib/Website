@@ -1,0 +1,20 @@
+#header{
+    background-color: green;
+    font-size: large;
+}
+#header li, h1{
+    display: inline;
+    margin-right: 5%;
+
+}
+#header #right{
+    margin-left: 28%;
+    
+}
+
+html{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+}
